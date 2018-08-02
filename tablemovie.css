@@ -1,21 +1,73 @@
-/* Post Table */
-.post-body table {width:100%;}
-.post-body table td,.post-body table caption{background:#fff;border:1px solid rgba(0,0,0,0.05);padding:3px;text-align:left;vertical-align:top}
-.post-body table th{background:#e74c3c;color:#fff;border:1px solid rgba(0,0,0,0.05);border-bottom:0;padding:4px;text-align:left;vertical-align:top}
-.post-body table.tr-caption-container {border:1px solid rgba(0,0,0,0.14);margin:0;}
-.post-body th{font-weight:700;}
-.post-body table caption{border:none;font-style:italic;}
-.post-body td, .post-body th{vertical-align:top;text-align:left;font-size:13px;padding:3px 5px;border:1px solid #97b28e;}
-.post-body th{}
-.post-body th:hover{color:#fff;}
-.post-body td a{color:#444;}
-.post-body td a:hover{color:#cf4d35;}
-.post-body table.tr-caption-container td{border:0;padding:2px;background:#fff;line-height:17px;overflow:hidden;text-align:center;text-overflow:ellipsis;white-space:nowrap;font-weight:700;color:#000;}
-.post-body table.tr-caption-container, .post-body table.tr-caption-container img, .post-body img {max-width:100%;height:auto;}
-.post-body li {list-style-type:square;}
-.post-body td.tr-caption {color:#666;font-size:100%;padding:0px 8px 8px!important;}
-.sr {visibility:hidden;width:0;height:0;}
-.clear{clear:both}
-html {-webkit-font-smoothing:antialiased;}
-::selection {background:#eafdb7;text-shadow:none;}
-.post-body ::selection {background:#eafdb7;color:#000;}
+<style>
+#a {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+#a td, #a th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+#a td:hover {background-color: #ddd;}
+#a th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: red;
+    color: white;
+}
+</style>
+<style>
+.b {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 4px 4px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 1px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 6px;
+}
+.b1 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid red;
+}
+.b1:hover {
+    background-color: red;
+    color: white;
+}
+.b2 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid orange;
+}
+.b2:hover {
+    background-color: orange;
+    color: white;
+}
+.b3 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid green;
+}
+.b3:hover {
+    background-color: green;
+    color: white;
+}
+.b4 {
+    background-color: white;
+    color: black;
+    border: 2px solid blue;
+}
+.b4:hover {
+    background-color: blue;
+    color: white;
+}
+</style>
