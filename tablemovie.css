@@ -4,6 +4,7 @@
     border-collapse: collapse;
     width: 100%;
 }
+
 #a td, #a th {
     border: 1px solid #ddd;
     padding: 8px;
@@ -34,38 +35,46 @@
     cursor: pointer;
     border-radius: 6px;
 }
+
 .b1 {
     background-color: white; 
     color: black; 
     border: 2px solid red;
 }
+
 .b1:hover {
     background-color: red;
     color: white;
 }
+
 .b2 {
     background-color: white; 
     color: black; 
     border: 2px solid orange;
 }
+
 .b2:hover {
     background-color: orange;
     color: white;
 }
+
 .b3 {
     background-color: white; 
     color: black; 
     border: 2px solid green;
 }
+
 .b3:hover {
     background-color: green;
     color: white;
 }
+
 .b4 {
     background-color: white;
     color: black;
     border: 2px solid blue;
 }
+
 .b4:hover {
     background-color: blue;
     color: white;
